@@ -1,0 +1,21 @@
+{
+  "name": "babeltransformamodule",
+  "version": "1.0.0",
+  "description": "babel转单文件es6代码",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib && gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-uglify": "^3.0.0",
+    "node-minify": "^2.0.3",
+    "uglify-js": "^3.2.2"
+  }
+}
